@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "tc1",
+      "setup": "",
+      "run": "mvn test -Dtest=AppTest#tc1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "tc2",
+      "setup": "",
+      "run": "mvn test -Dtest=AppTest#tc2 ",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "tc3",
+      "setup": "",
+      "run": "mvn test -Dtest-AppTest#tc3",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "tc4",
+      "setup": "",
+      "run": "mvn test -Dtest=AppTest#tc4",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "tc5",
+      "setup": "",
+      "run": "mvn test -Dtest=AppTest#tc5",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
